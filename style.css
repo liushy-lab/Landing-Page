@@ -1,12 +1,18 @@
+.hero {
+    background-color: #301934;
+    color: #1f2937;
+    font-size: 48px;
+    font-weight: extra bold;
+
+}
+
 .header {
     font-size: 24px;
     color: #f9faf8;
 
 }
 
-.hero {
 
-}
 
 .footer {
 
