@@ -1,17 +1,19 @@
 body {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .upper, .footer {
-    background-color: #301934;
+    background-color: #230a13;
 }
 
-.header, p {
+.header {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     color: #e5e7eb;
     padding: 20px 18px;
+    margin: 20px 20px;
 }
 
 a {
@@ -26,7 +28,7 @@ a {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 35px 35px;
 }
@@ -34,6 +36,13 @@ a {
 .herotext {
     display: flex;
     flex-direction: column;
+    align-items: space-between;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
 }
 
 h1 {
@@ -41,6 +50,11 @@ h1 {
     font-size: 48px;
     font-family: 'Roboto', arial;
     font-weight:bold;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
